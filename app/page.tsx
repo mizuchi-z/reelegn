@@ -316,6 +316,52 @@ export default async function HomePage() {
           </div>
         </section>
 
+        {/* ── ON S'OCCUPE DE TOUT ── */}
+        <section className="py-24 px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-block mb-6">
+              <span className="font-mono text-xs text-[#00B4D8] tracking-[4px] border border-[rgba(0,180,216,0.3)] bg-[rgba(0,180,216,0.08)] px-4 py-2 rounded-[4px] uppercase">
+                SERVICE COMPLET
+              </span>
+            </div>
+            <h2 className="font-orbitron font-black text-3xl md:text-4xl text-[#E8EFF6] mb-4">
+              TU VEUX QU&apos;ON S&apos;OCCUPE{" "}
+              <span className="text-[#00B4D8]">DE TOUT ?</span>
+            </h2>
+            <p className="font-orbitron text-sm text-[#5A7089] mb-3">
+              Mizuchi réalise tes Reels IA de A à Z. Tu n&apos;as rien à faire.
+            </p>
+            <p className="font-sans text-sm text-[#5A7089] max-w-xl mx-auto mb-10 leading-relaxed">
+              Script, prompts, tournage IA, montage, légendes — on gère tout
+              pour toi. Résultat : des Reels professionnels prêts à poster.
+            </p>
+            <div className="bg-[#0D1826] border border-[rgba(0,180,216,0.2)] rounded-[8px] p-8 mb-10 inline-block text-left">
+              <ul className="flex flex-col gap-4">
+                {[
+                  "Pack 3 Reels IA — à partir de 350€",
+                  "Rendu en 72h",
+                  "Secteurs : Food, Immo, Mode, Sport",
+                ].map((item) => (
+                  <li key={item} className="flex items-center gap-3 font-sans text-sm text-[#E8EFF6]">
+                    <span className="text-[#00B4D8] font-bold">✦</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <a
+                href="https://www.instagram.com/mizuchi_z"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary px-8 py-4 text-sm rounded-md inline-block"
+              >
+                NOUS CONTACTER
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* ── CTA FINAL ── */}
         <section className="py-24 px-4 bg-[#0D1826]">
           <div className="max-w-2xl mx-auto text-center">
