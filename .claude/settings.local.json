@@ -19,7 +19,8 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git config:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npm run:*)"
     ],
     "additionalDirectories": [
       "C:\\Users\\Matis\\.claude\\projects\\c--Users-Matis-Desktop-reelgen\\memory"
