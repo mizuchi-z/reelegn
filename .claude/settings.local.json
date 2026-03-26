@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-eslint --no-src-dir --import-alias \"@/*\" --yes)",
+      "Read(//c//**)",
+      "Read(//c/Users/Matis/AppData/Roaming/**)",
+      "Bash(find /c -name node.exe)",
+      "Read(//c/Users/Matis/AppData/Local/**)",
+      "Read(//c/Users/Matis/**)",
+      "Bash(mkdir -p /c/Users/Matis/Desktop/reelgen/app/auth/signup)",
+      "Bash(mkdir -p /c/Users/Matis/Desktop/reelgen/app/auth/login)",
+      "Bash(mkdir -p /c/Users/Matis/Desktop/reelgen/app/generate)",
+      "Bash(mkdir -p /c/Users/Matis/Desktop/reelgen/app/result/[id])",
+      "Bash(mkdir -p /c/Users/Matis/Desktop/reelgen/app/dashboard)",
+      "Bash(npm --version)",
+      "Read(//c/Program Files/**)",
+      "Bash(npm install:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Matis\\.claude\\projects\\c--Users-Matis-Desktop-reelgen\\memory"
+    ]
+  }
+}
