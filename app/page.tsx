@@ -332,29 +332,6 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ── ILS ONT FAIT CONFIANCE ── */}
-        <section className="py-24 px-4">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="font-orbitron font-black text-3xl md:text-4xl text-[#E8EFF6] text-center mb-12">
-              ILS ONT FAIT <span className="text-[#00B4D8]">CONFIANCE</span>
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-[#0D1826] border border-[rgba(0,180,216,0.12)] rounded-[8px] p-6 flex flex-col gap-4">
-                <h3 className="font-orbitron font-bold text-sm text-[#E8EFF6]">Din&apos;Apéro</h3>
-                <a href="https://www.instagram.com/reel/DVeOgEmDPgP/" target="_blank" rel="noopener noreferrer" className="btn-primary px-4 py-2.5 text-xs rounded text-center mt-auto">Voir le Reel</a>
-              </div>
-              <div className="bg-[#0D1826] border border-[rgba(0,180,216,0.12)] rounded-[8px] p-6 flex flex-col gap-4">
-                <h3 className="font-orbitron font-bold text-sm text-[#E8EFF6]">Véronique Jeannot</h3>
-                <a href="https://www.instagram.com/reel/DV_nC08iB8d/" target="_blank" rel="noopener noreferrer" className="btn-primary px-4 py-2.5 text-xs rounded text-center mt-auto">Voir le Reel</a>
-              </div>
-              <div className="bg-[#0D1826] border border-[rgba(0,180,216,0.12)] rounded-[8px] p-6 flex flex-col gap-4">
-                <h3 className="font-orbitron font-bold text-sm text-[#E8EFF6]">Les Légendes de Nice</h3>
-                <a href="https://www.instagram.com/reel/DWZcEldDL7a/" target="_blank" rel="noopener noreferrer" className="btn-primary px-4 py-2.5 text-xs rounded text-center mt-auto">Voir le Reel</a>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* ── ON S'OCCUPE DE TOUT ── */}
         <section className="py-24 px-4">
           <div className="max-w-3xl mx-auto text-center">
