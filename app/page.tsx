@@ -345,53 +345,47 @@ export default async function HomePage() {
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {[
-                {
-                  nom: "Din'Apéro",
-                  secteur: "Food & Brunch",
-                  ville: "Nice",
-                  href: "https://www.instagram.com/reel/DVeOgEmDPgP/",
-                },
-                {
-                  nom: "Véronique Jeannot",
-                  secteur: "Culture & Littérature",
-                  ville: "Nice",
-                  href: "https://www.instagram.com/reel/DV_nC08iB8d/",
-                },
-                {
-                  nom: "Les Légendes de Nice",
-                  secteur: "Automobile",
-                  ville: "Nice",
-                  href: "https://www.instagram.com/reel/DWZcEldDL7a/",
-                },
-              ].map((client) => (
-                <div
-                  key={client.nom}
-                  className="bg-[#0D1826] border border-[rgba(0,180,216,0.12)] rounded-[8px] p-6 flex flex-col gap-4 hover:border-[rgba(0,180,216,0.4)] transition-all duration-150"
-                >
-                  <div className="flex items-start justify-between gap-2">
-                    <div>
-                      <p className="font-orbitron font-bold text-sm text-[#E8EFF6]">
-                        {client.nom}
-                      </p>
-                      <p className="font-mono text-xs text-[#5A7089] mt-1">
-                        {client.secteur} · {client.ville}
-                      </p>
-                    </div>
-                    <span className="font-mono text-[10px] text-[#00B4D8] border border-[rgba(0,180,216,0.3)] bg-[rgba(0,180,216,0.08)] px-2 py-1 rounded-[4px] shrink-0">
-                      REEL IA
-                    </span>
+              {/* Carte 1 — Din'Apéro */}
+              <div className="bg-[#0D1826] border border-[rgba(0,180,216,0.12)] rounded-[8px] p-6 flex flex-col gap-4 hover:border-[rgba(0,180,216,0.4)] transition-all duration-150">
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <p className="font-orbitron font-bold text-sm text-[#E8EFF6]">Din&apos;Apéro</p>
+                    <p className="font-mono text-xs text-[#5A7089] mt-1">Food & Brunch · Nice</p>
                   </div>
-                  <a
-                    href={client.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary px-4 py-2.5 text-xs rounded text-center mt-auto"
-                  >
-                    Voir le Reel →
-                  </a>
+                  <span className="font-mono text-[10px] text-[#00B4D8] border border-[rgba(0,180,216,0.3)] bg-[rgba(0,180,216,0.08)] px-2 py-1 rounded-[4px] shrink-0">REEL IA</span>
                 </div>
-              ))}
+                <a href="https://www.instagram.com/reel/DVeOgEmDPgP/" target="_blank" rel="noopener noreferrer" className="btn-primary px-4 py-2.5 text-xs rounded text-center mt-auto">
+                  Voir le Reel →
+                </a>
+              </div>
+
+              {/* Carte 2 — Véronique Jeannot */}
+              <div className="bg-[#0D1826] border border-[rgba(0,180,216,0.12)] rounded-[8px] p-6 flex flex-col gap-4 hover:border-[rgba(0,180,216,0.4)] transition-all duration-150">
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <p className="font-orbitron font-bold text-sm text-[#E8EFF6]">Véronique Jeannot</p>
+                    <p className="font-mono text-xs text-[#5A7089] mt-1">Culture & Littérature · Nice</p>
+                  </div>
+                  <span className="font-mono text-[10px] text-[#00B4D8] border border-[rgba(0,180,216,0.3)] bg-[rgba(0,180,216,0.08)] px-2 py-1 rounded-[4px] shrink-0">REEL IA</span>
+                </div>
+                <a href="https://www.instagram.com/reel/DV_nC08iB8d/" target="_blank" rel="noopener noreferrer" className="btn-primary px-4 py-2.5 text-xs rounded text-center mt-auto">
+                  Voir le Reel →
+                </a>
+              </div>
+
+              {/* Carte 3 — Les Légendes de Nice */}
+              <div className="bg-[#0D1826] border border-[rgba(0,180,216,0.12)] rounded-[8px] p-6 flex flex-col gap-4 hover:border-[rgba(0,180,216,0.4)] transition-all duration-150">
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <p className="font-orbitron font-bold text-sm text-[#E8EFF6]">Les Légendes de Nice</p>
+                    <p className="font-mono text-xs text-[#5A7089] mt-1">Automobile · Nice</p>
+                  </div>
+                  <span className="font-mono text-[10px] text-[#00B4D8] border border-[rgba(0,180,216,0.3)] bg-[rgba(0,180,216,0.08)] px-2 py-1 rounded-[4px] shrink-0">REEL IA</span>
+                </div>
+                <a href="https://www.instagram.com/reel/DWZcEldDL7a/" target="_blank" rel="noopener noreferrer" className="btn-primary px-4 py-2.5 text-xs rounded text-center mt-auto">
+                  Voir le Reel →
+                </a>
+              </div>
             </div>
           </div>
         </section>
