@@ -35,18 +35,24 @@ export default async function HomePage() {
             <h1 className="font-orbitron font-black mb-6 leading-tight">
               <span
                 className="block text-[#E8EFF6]"
-                style={{ fontSize: "clamp(36px, 7vw, 72px)" }}
+                style={{ fontSize: "clamp(28px, 5vw, 56px)" }}
               >
-                GÉNÈRE TON
+                LE SCRIPT, LES PROMPTS
+              </span>
+              <span
+                className="block text-[#E8EFF6]"
+                style={{ fontSize: "clamp(28px, 5vw, 56px)" }}
+              >
+                ET LA LÉGENDE DE TON REEL IA —
               </span>
               <span
                 className="block text-[#00B4D8]"
                 style={{
-                  fontSize: "clamp(36px, 7vw, 72px)",
+                  fontSize: "clamp(28px, 5vw, 56px)",
                   textShadow: "0 0 30px rgba(0,180,216,0.4)",
                 }}
               >
-                REEL EN 2 MIN
+                PRÊTS EN 2 MINUTES.
               </span>
             </h1>
 
@@ -267,6 +273,9 @@ export default async function HomePage() {
                   <span className="font-mono text-xs text-[#5A7089]">
                     par pack
                   </span>
+                  <p className="font-sans text-xs text-[#34D399] mt-2">
+                    Moins cher qu&apos;une heure de community manager.
+                  </p>
                 </div>
                 <ul className="flex flex-col gap-3 font-sans text-sm text-[#5A7089]">
                   {[
@@ -292,11 +301,6 @@ export default async function HomePage() {
 
               {/* MENSUEL — featured */}
               <div className="bg-[#0D1826] border border-[#00B4D8] rounded-[8px] p-8 flex flex-col gap-6 shadow-[0_0_30px_rgba(0,180,216,0.15)] relative">
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                  <span className="font-mono text-[10px] tracking-[2px] text-[#080F1A] bg-[#00B4D8] px-3 py-1 rounded-[4px] uppercase">
-                    LE PLUS POPULAIRE
-                  </span>
-                </div>
                 <div>
                   <span className="font-mono text-xs text-[#00B4D8] tracking-widest uppercase">
                     Mensuel
@@ -452,9 +456,6 @@ export default async function HomePage() {
             <p className="font-sans text-sm text-[#5A7089] mb-2">
               Rejoins les business qui utilisent déjà ReelGen pour leurs Reels.
             </p>
-            <p className="font-mono text-xs text-[#00B4D8] mb-8">
-              ✦ Lancé à Nice · Mars 2026
-            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
                 href="/auth/signup"
@@ -486,7 +487,7 @@ export default async function HomePage() {
                 },
                 {
                   q: "J'ai besoin d'un compte Higgsfield ou Kling AI ?",
-                  a: "Oui, ReelGen génère les prompts optimisés, tu les colles dans la plateforme de ton choix.",
+                  a: "Oui, ces outils sont payants. Higgsfield et Kling AI proposent un essai gratuit limité à l'inscription. ReelGen te donne les prompts optimisés — tu les colles directement dans l'outil de ton choix.",
                 },
                 {
                   q: "C'est quoi Higgsfield ?",
@@ -551,7 +552,7 @@ export default async function HomePage() {
                   Confidentialité
                 </Link>
                 <a
-                  href="mailto:motionmatis@gmail.com"
+                  href="mailto:contact@mizuchi-reelgen.fr"
                   className="font-mono text-xs text-[#5A7089] hover:text-[#E8EFF6] transition-colors"
                 >
                   Contact
@@ -560,7 +561,7 @@ export default async function HomePage() {
             </div>
             <div className="mt-8 pt-6 border-t border-[rgba(0,180,216,0.08)] text-center">
               <p className="font-mono text-xs text-[#5A7089]">
-                @mizuchi_z · motionmatis@gmail.com · Nice, France 2026
+                @mizuchi_z · contact@mizuchi-reelgen.fr · Nice, France 2026
               </p>
             </div>
           </div>
